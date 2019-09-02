@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SweatWorksChallenge</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="conexion_failed_msg">Connection Failed</string>
+    <string name="generic_error_msg">Error!</string>
+    <string name="transitionname_picture">transitionnamepicture</string>
+</resources>
