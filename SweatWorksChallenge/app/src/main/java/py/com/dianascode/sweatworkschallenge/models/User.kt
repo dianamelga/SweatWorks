@@ -24,7 +24,7 @@ data class Name(
 ): Serializable
 
 data class Location(
-    val street: String?= null,
+    val street: Street?= null,
     val city: String?= null,
     val state: String?= null,
     val postcode: String?= null,
@@ -32,6 +32,11 @@ data class Location(
     val timezone: TimeZone?= null
 
 
+): Serializable
+
+data class Street(
+    val number: Int?=null,
+    val name: String?=null
 ): Serializable
 
 data class Coordinates(
